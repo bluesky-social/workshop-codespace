@@ -61,7 +61,7 @@ CREATE at://did:plc:ragtjsm2j2vknwkz3zp4oxrd/app.bsky.feed.post/3jux7x2uvip2v
 As before, you can change these arguments, if you want to broadcast a feed with some different search terms, from a different user's posts:
 
 ```bash
-npx tsx src/index.ts "did:plc:vmt7o7y6titkqzzxav247zrn" Zangief
+FEED_SEARCH_TERMS="Zangief" npx tsx src/index.ts "did:plc:vmt7o7y6titkqzzxav247zrn"
 ```
 
 We won't get into the whole feed generator architecture in the time that we have today, but you can find a complete tutorial at https://atproto.com/guides/custom-feed-tutorial. Can you think of any other use cases for tap?
