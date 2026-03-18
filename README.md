@@ -4,6 +4,10 @@ This repo contains exercises used in the "Consuming the Atmosphere" and "Creatin
 ## Exercise Environment for this Course
 You can launch an exercise environment for this course using GitHub Codespaces.
 
+To do so, click the green "Code" button above, select the "Codespaces" tab, then press the green "Create codespace on main" button.
+
+![Screenshot of the Codespaces pop-up](img/codespace.png)
+
 Alternatively, you can clone this repository down locally to run the exercises on your own. These are the commands that are run to install dependencies into this environment:
 
 ```bash
