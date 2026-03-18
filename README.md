@@ -1,6 +1,18 @@
 # Code Repository for Atmosphere Workshops
 This repo contains exercises used in the "Consuming the Atmosphere" and "Creating the Atmosphere" workshops.
 
+## Exercise Environment for this Course
+You can launch an exercise environment for this course using GitHub Codespaces.
+
+Alternatively, you can clone this repository down locally to run the exercises on your own. These are the commands that are run to install dependencies into this environment:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" # install homebrew
+brew install websocat jq goat node go pnpm
+npm i -g @atproto/lex tsx
+go install github.com/bluesky-social/indigo/cmd/tap@latest
+```
+
 ## Hands-On Exercises
 
 Directory Name                     | Exercise
@@ -19,14 +31,3 @@ Directory Name                     | Exercise
 ## Reference
 You can refer to the [atproto docs](https://atproto.com) as you work through this course.
 
-## Exercise Environment for this Course
-You can launch an exercise environment for this course using GitHub Codespaces.
-
-Alternatively, you can clone this repository down locally to run the exercises on your own. These are the commands that are run to install dependencies into this environment:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" # install homebrew
-brew install websocat jq goat node go pnpm
-npm i -g @atproto/lex tsx
-go install github.com/bluesky-social/indigo/cmd/tap@latest
-```
