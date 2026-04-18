@@ -12,10 +12,10 @@ const command = args[1] ?? 'profile'
 async function main() {
     if (command === 'posts') {
         const posts = await pdsClient.list(app.bsky.feed.post, { limit: 10, repo: actor })
-        console.log(posts);
+        console.dir(posts, { depth: null });
     } else {
         const profile = await appviewClient.call(app.bsky.actor.getProfile, { actor })
-        console.log(profile);
+        console.dir(profile, { depth: null });
     }
 }
 
