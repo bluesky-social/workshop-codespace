@@ -1,0 +1,52 @@
+requesting Request {
+  method: 'GET',
+  url: 'https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=alex.bsky.team',
+  headers: Headers {
+    'atproto-accept-labelers': 'did:plc:ar7c4by46qjdydhdevvrndac;redact'
+  },
+  destination: '',
+  referrer: 'about:client',
+  referrerPolicy: '',
+  mode: 'cors',
+  credentials: 'same-origin',
+  cache: 'default',
+  redirect: 'follow',
+  integrity: '',
+  keepalive: false,
+  isReloadNavigation: false,
+  isHistoryNavigation: false,
+  signal: AbortSignal { aborted: false }
+}
+got response Response {
+  status: 200,
+  statusText: 'OK',
+  headers: Headers {
+    date: 'Fri, 27 Mar 2026 18:13:54 GMT',
+    'content-type': 'application/json; charset=utf-8',
+    'content-length': '42',
+    connection: 'keep-alive',
+    'x-powered-by': 'Express',
+    'access-control-allow-origin': '*',
+    'ratelimit-limit': '3000',
+    'ratelimit-remaining': '2999',
+    'ratelimit-reset': '1774635534',
+    'ratelimit-policy': '3000;w=300',
+    etag: 'W/"2a-4cC4jS5Kn8koRPStMwFyhrq7GWE"',
+    vary: 'Accept-Encoding'
+  },
+  body: ReadableStream { locked: false, state: 'readable', supportsBYOB: true },
+  bodyUsed: false,
+  ok: true,
+  redirected: false,
+  type: 'basic',
+  url: 'https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=alex.bsky.team'
+}
+{
+  uri: 'at://did:plc:t44345nyd7jmxfs5hxs4doch/app.bsky.feed.post/3mi2pvgltbo2u',
+  cid: 'bafyreihclutgmsxxyhvdytjtyqtxul6wsgzrgnbaeugubnpqwmgps43pvu',
+  commit: {
+    cid: 'bafyreifufnv7i6yl55ezfacbzykrbm4cvoftbdvetlosd7zwuongza2vem',
+    rev: '3mi2pvgmeu62u'
+  },
+  validationStatus: 'valid'
+}
