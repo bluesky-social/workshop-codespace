@@ -50,7 +50,7 @@ The key parameters are:
 - `source`: The record type and field path to search — here it's `app.bsky.feed.like:subject.uri`
 - `limit`: How many results to return
 
-The JSON response will have a `links` array containing the matching records.
+The JSON response will have a `records` array containing the matching records.
 
 ## Finding replies
 
